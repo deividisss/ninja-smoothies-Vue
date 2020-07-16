@@ -4,7 +4,7 @@
     <form @submit.prevent="AddSmoothie">
       <div class="field title">
         <label for="title">Smoothie Title:</label>
-        <input type="text" name="title" v-model="title" id />
+        <input type="text" name="title" v-model="title" />
       </div>
       <div v-for="(ing, index) in ingredients" :key="index" class="field">
         <label for="ingredient">Ingredient:</label>
